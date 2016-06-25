@@ -1,8 +1,24 @@
 <?php
+include 'tellen.php';
+include 'upload.php';
+include 'uploadbestand';
+voegBestandToe();
+?>
+<html>
+    <head>
+        <title>Index Generator</title>
+     
+        <link rel="stylesheet" type="text/css" href="index.css">
+    
+   
+    </head>
+    <body>
+        <h1> Index Generator</h1>
+        
 
-/*
- * Opdracht:
- * Teller maken die telt hoe vaak een woord terug komt.
- * Daarvan selectie van meest populaire woorden.
- * Van die selectie de lidwoorden eruit filteren.
- */
+ <?php
+ bestandtoevoegenonof();
+?>
+  
+    </body>
+</html>
