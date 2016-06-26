@@ -1,14 +1,16 @@
 <html>
 <head>
-<title>page1</title>
+    <link rel="stylesheet" href="index.css">
+<title>Index Generator</title>
 </head>
 <body>
+    <h1>Index Generator</h1>
 <form method = "POST">
 <p>
   <textarea name="tekst" ></textarea>
 </p>
 <p>
-  <input type="submit" name="bereken" id="bereken" value="Bereken">
+<input type="submit" name="bereken" id="bereken" value="Bereken">
 </p>
 </form>
 
