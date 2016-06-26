@@ -1,3 +1,18 @@
+<html>
+<head>
+<title>page1</title>
+</head>
+<body>
+<form method = "POST">
+<p>
+  <textarea name="tekst" ></textarea>
+</p>
+<p>
+  <input type="submit" name="bereken" id="bereken" value="Bereken">
+</p>
+</form>
+
+
 <?php
 
 $tekst = $_POST['tekst']; 
@@ -78,3 +93,7 @@ echo "" . $leestekens . " leestekens<br>";
 echo "" . $count . " tekens<br>";
 
 ?>
+
+
+</body>
+</html>
