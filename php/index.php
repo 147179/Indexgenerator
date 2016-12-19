@@ -16,8 +16,12 @@
 
 
 <?php
-
-$tekst = $_POST['tekst']; 
+if (isset($_POST["tekst"])) {
+    echo "Gevonden in de tekst";    
+}else{  
+    echo "";
+}
+//$tekst = $_POST['tekst']; 
 
 $count = strlen($tekst);
 
@@ -86,8 +90,7 @@ while($m<$count)
     if($tekst[$m]=='_' || $tekst[$m]=='@' ) $leestekens++ ;
     $m++;
 }
-
-echo "Gevonden in de tekst:<br>";                
+             
 echo "" . $letters . " letters<br>";
 echo "" . $klinkers . "  klinkers<br>";
 echo "" . $woorden . " woorden<br>";
